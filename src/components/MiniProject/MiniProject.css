@@ -1,0 +1,39 @@
+.miniproject-card {
+    /* background-color: #00e1ea; */
+    border-bottom: 6px solid;
+    margin: 1rem 4px;
+    flex: 1 1 45%;
+    font-family: "American Typewriter";
+}
+.miniproject-card:hover {
+    transition: 300ms;
+    transform: translateY(-4px);
+    box-shadow: -0px 3px 5px 5px var(--introBlue);
+}
+
+.mini-project-header {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    filter: invert(15%) sepia(67%) saturate(6983%) hue-rotate(302deg)
+        brightness(77%) contrast(106%);
+    padding: 3px;
+}
+.mini-project-header {
+    width: fit-content;
+    align-self: center;
+    font-size: 22px;
+    border-bottom: 2px solid var(--testing);
+}
+
+.project-icon {
+    width: 45px;
+    height: 45px;
+    padding: 3px 8px 8px 8px;
+}

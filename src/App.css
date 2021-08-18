@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "American Typewriter";
+    src: url(./fonts/American-Typewriter-Regular.ttf);
+}
+
+.content {
+    text-align: center;
+    color: var(--introBlue);
+    /* padding: 0 25px; */
+
+    /* max-height: fit-content; */
+}
+main {
+    max-width: 1200px;
+    margin: 4rem auto 0;
+    padding: 0 25px;
+}
+
+@media screen and (min-width: 500px) {
+    main {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    main {
+        padding: 0 10%;
+    }
+}

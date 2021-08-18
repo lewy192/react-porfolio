@@ -1,0 +1,15 @@
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkSlateGrey);
+    padding: 0.375rem;
+    transition: 0.6s;
+}
+.social-icon {
+    max-width: 25px;
+    max-height: 25px;
+    margin: 0 5px;
+    filter: invert(15%) sepia(97%) saturate(3385%) hue-rotate(211deg)
+        brightness(86%) contrast(86%);
+}

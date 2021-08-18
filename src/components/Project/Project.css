@@ -1,0 +1,204 @@
+.project-card {
+    border: 2px solid;
+    margin: 8px 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.project {
+    margin: 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "American Typewriter";
+}
+.tech-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.project-header {
+    margin: 1rem 0 0;
+    font-size: 24px;
+    color: var(--introBlue);
+    max-width: fit-content;
+    align-self: center;
+}
+.project-header::after {
+    content: "";
+    display: block;
+    background: var(--testing);
+    height: 1px;
+    width: 130%;
+    position: relative;
+    bottom: -8px;
+    left: -15%;
+    z-index: -1;
+}
+.front-box {
+    margin: 0;
+}
+
+.project-description {
+    border-bottom: 1px solid var(--testing);
+    padding: 8px 0 4px;
+    color: var(--introBlue);
+    font-size: 18px;
+
+    /* align-self: center; */
+}
+.links-container {
+    margin: 0 0 0 1rem;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+}
+.links-container a {
+    margin: 0 8px;
+}
+.links-container img {
+    filter: invert(15%) sepia(97%) saturate(3385%) hue-rotate(211deg)
+        brightness(86%) contrast(86%);
+    transition: 500ms;
+}
+
+.links-container img:hover {
+    /* filter: invert(17%) sepia(76%) saturate(7098%) hue-rotate(302deg)
+        brightness(77%) contrast(106%); */
+    transform: scale(1.5);
+    padding-bottom: 3px;
+    border-bottom: 2 + px solid;
+}
+
+.repo-link,
+.live-link,
+.repo-img,
+.live-img {
+    height: 25px;
+    width: 25px;
+}
+/* .project-description:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 10px 10px rgb(110, 110, 148);
+    border-radius: 0 0 3px 3px;
+} */
+
+.tech-list li {
+    list-style: none;
+    color: var(--testing);
+    transition: 500ms;
+}
+
+.tech-list li:hover {
+    transform: scale(1.1);
+    /* border-bottom: 1px solid; */
+}
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (min-width: 230px) {
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .photo {
+        width: unset;
+        height: unset;
+        max-width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project-card {
+        flex: 1 1 40%;
+        margin: 8px;
+    }
+    .photo {
+        position: relative;
+        z-index: -4;
+        /* height: fit-content; */
+        width: 60%;
+        height: 100%;
+        max-height: fit-content;
+        border: 1px solid var(--testing);
+        background-size: auto;
+        border-radius: 10px;
+        object-position: center center;
+        object-fit: cover;
+    }
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        max-height: fit-content;
+        width: 50%;
+    }
+
+    .front-box {
+        backdrop-filter: blur(2px);
+        width: calc(100% + 60px);
+        margin: auto 0;
+        border: 2px solid var(--introBlue);
+        background-color: transparent;
+        transform: translateX(100vw);
+        z-index: 0;
+        border-radius: 10px;
+        transition: 800ms;
+        padding: 0 1rem;
+    }
+
+    .front-box.animate {
+        transform: translateX(-60px);
+        backdrop-filter: blur(0);
+        background-color: #dddd7ac0;
+    }
+
+    .front-box:hover {
+        transition: 500ms;
+        box-shadow: 4px 6px 20px #47699c;
+        transform: translate(-60px, -5px);
+    }
+
+    .project {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        /* height: 300px; */
+        width: 100%;
+        margin: 5rem 0 0;
+    }
+    .project-description {
+        border: none;
+    }
+    .project-header {
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .photo {
+        width: 50%;
+        border: 2px solid var(--testing);
+    }
+
+    .front-box:hover {
+        transform: translateX(10px);
+    }
+}
