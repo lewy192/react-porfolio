@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/lewy192/react-porfolio/static/css/main.237857c9.chunk.css",
+    "main.js": "/lewy192/react-porfolio/static/js/main.735e31de.chunk.js",
+    "main.js.map": "/lewy192/react-porfolio/static/js/main.735e31de.chunk.js.map",
+    "runtime-main.js": "/lewy192/react-porfolio/static/js/runtime-main.9316e475.js",
+    "runtime-main.js.map": "/lewy192/react-porfolio/static/js/runtime-main.9316e475.js.map",
+    "static/js/2.9e9a819a.chunk.js": "/lewy192/react-porfolio/static/js/2.9e9a819a.chunk.js",
+    "static/js/2.9e9a819a.chunk.js.map": "/lewy192/react-porfolio/static/js/2.9e9a819a.chunk.js.map",
+    "static/js/3.855c50fd.chunk.js": "/lewy192/react-porfolio/static/js/3.855c50fd.chunk.js",
+    "static/js/3.855c50fd.chunk.js.map": "/lewy192/react-porfolio/static/js/3.855c50fd.chunk.js.map",
+    "index.html": "/lewy192/react-porfolio/index.html",
+    "static/css/main.237857c9.chunk.css.map": "/lewy192/react-porfolio/static/css/main.237857c9.chunk.css.map",
+    "static/js/2.9e9a819a.chunk.js.LICENSE.txt": "/lewy192/react-porfolio/static/js/2.9e9a819a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/lewy192/react-porfolio/static/media/American-Typewriter-Regular.5070e397.ttf",
+    "static/media/Hotham.83c39d31.jpg": "/lewy192/react-porfolio/static/media/Hotham.83c39d31.jpg",
+    "static/media/Melbourne.8d0a7eaa.jpg": "/lewy192/react-porfolio/static/media/Melbourne.8d0a7eaa.jpg",
+    "static/media/logo.6ce24c58.svg": "/lewy192/react-porfolio/static/media/logo.6ce24c58.svg",
+    "static/media/portrait.86e6123e.png": "/lewy192/react-porfolio/static/media/portrait.86e6123e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9316e475.js",
+    "static/js/2.9e9a819a.chunk.js",
+    "static/css/main.237857c9.chunk.css",
+    "static/js/main.735e31de.chunk.js"
+  ]
+}
